@@ -24,7 +24,7 @@ function showTable() {
             <td>${book.title}</td>
             <td>${book.author}</td>
             <td>${book.isbn}</td>
-			<td><button onclick="handleDelete('${book.title}')">Delete</button></td>
+			<td><button class="delete" onclick="handleDelete('${book.title}')">Delete</button></td>
         </tr>
     `;
 	}
